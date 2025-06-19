@@ -15,7 +15,7 @@ const PASSWORD_CONFIG = {
 const SITE_CONFIG = {
     name: 'LibreTV',
     url: 'https://libretv.is-an.org',
-    description: '免费在线视频搜索与观看平台',
+    description: '免费在线视频',
     logo: 'image/logo.png',
     version: '1.0.3'
 };
@@ -39,10 +39,10 @@ const API_SITES = {
         api: 'https://tyyszy.com/api.php/provide/vod',
         name: '天涯资源',
     },
-    // xiaomaomi: {
-    //     api: 'https://zy.xiaomaomi.cc/api.php/provide/vod',
-    //     name: '小猫咪资源',
-    // },
+    xiaomaomi: {
+        api: 'https://zy.xiaomaomi.cc/api.php/provide/vod',
+         name: '小猫咪资源',
+     },
     ffzy: {
         api: 'http://ffzy5.tv/api.php/provide/vod',
         name: '非凡影视',
@@ -110,11 +110,7 @@ const API_SITES = {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: 'iKun资源'
     },
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
-    },
+
     // 下面是一些成人内容的API源，默认隐藏，使用本项目浏览黄色内容违背项目初衷
     // 互联网上传播的色情内容将人彻底客体化、工具化，是性别解放和人类平等道路上的巨大障碍。
     // 这些黄色影片是资本主义父权制压迫的最恶毒体现，它将暴力和屈辱商品化，践踏人的尊严，对受害者造成无法弥愈的伤害，并毒害社会关系。
@@ -138,16 +134,12 @@ const API_SITES = {
     //     name: '百万资源',
     //     adult: true
     // },
-    // souav: {
-    //     api: 'https://api.souavzy.vip',
-    //     name: 'souav资源',
-    //     adult: true
-    // },
-    // r155: {
-    //     api: 'https://155api.com',
-    //     name: '155资源',
-    //     adult: true
-    // },
+    souav: {
+         api: 'https://api.souavzy.vip',
+         name: 'souav资源',
+         adult: true
+     },
+
     // lsb: {
     //     api: 'https://apilsbzy1.com',
     //     name: 'lsb资源',
@@ -159,11 +151,11 @@ const API_SITES = {
     //     adult: true,
     //     detail: 'https://hsckzy.vip'
     // },
-    // yutu: {
-    //     api: 'https://yutuzy10.com',
-    //     name: '玉兔资源',
-    //     adult: true
-    // },
+     yutu: {
+         api: 'https://yutuzy10.com',
+         name: '玉兔资源',
+         adult: true
+     },
 
     // 下面是资源失效率高的API源，不建议使用
     // subo: {
